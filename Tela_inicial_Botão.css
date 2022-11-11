@@ -1,0 +1,62 @@
+.search-box {
+    position: absolute;
+    top: 3%;
+    left: 34%;
+    transform: translate(-10%, -20%);
+
+    background: rgb(255, 255, 255);
+    height: 50px;
+    padding: 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} /*Caixa de Pesquisa*/
+
+.search-text {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+    transition: 0.6s;
+} /*Texto da Caixa de Pesquisa*/
+
+.search-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} /*Botão da Caixa de Pesquisa*/
+
+
+.loupe-white {
+    display: none;
+} /*Lupa Branca da Caixa de Pesquisa*/
+
+.search-box:hover > .search-text {
+    width: 360px;
+    padding-left: 30px;
+} /*Movimento para abrir o texto da Caixa de Pesquisa*/
+
+.search-box:hover > .search-btn {
+    background: #00CEFF;
+    border-radius: 40px;
+} /*Movimento para trocar de cor do botão da Caixa de Pesquisa*/
+
+.search-box:hover > .search-btn .loupe-blue {
+    display: none;
+} /*Movimento para trocar de cor a Lupa da Caixa de Pesquisa para Azul*/
+
+.search-box:hover > .search-btn .loupe-white {
+    display: block;
+} /*Movimento para trocar de cor a Lupa da Caixa de Pesquisa para Branca*/
+
+::-webkit-input-placeholder {
+    font-size: 17px;
+    font-family: 'coda';
+    color: #A2EDFF;
+} /*Como o botão se comporta ao ser ativado*/

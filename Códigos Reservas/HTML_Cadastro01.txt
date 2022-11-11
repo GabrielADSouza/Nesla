@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption&family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Coda+Caption&family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link href="Tela_inicial_1.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="tela_Cadastro.css" rel="stylesheet"> <!--Cadastro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <title>Cadastre-se</title>
+    <style>
+        .LM img {
+            position: absolute;
+            width: 3.5rem;
+            height: 4rem;
+            top: 35px;
+            right: 770px;
+        }   
+    </style>
+
+</head>
+<body>
+    <div class="LM"> <!--Código HTML da Logomarca-->
+        <a href="Telainicial.html">
+            <img src="Image/Logomarca.png">
+        </a> 
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h2>Cadastro</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Nome Completo</label>
+                <input type="text" id="username" placeholder="Digite seu nome completo...">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Digite seu Email...">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="date">Data de nascimento</label>
+                <input type="date" id="date">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha...">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password-confirmation">Confirme sua senha</label>
+                <input type="password" id="password-confirmation" placeholder="Confirme sua senha...">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="cep">CEP</label>
+                <input type="number" id="cep" placeholder="Digite seu CEP...">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="complement">Complemento</label>
+                <input type="text" id="complement">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <button type="submit">Concluir</button>
+
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/1a0dc44207.js" crossorigin="anonymous"></script>
+    <script src="tela_Cadastro.js"></script>
+
+</body>
+</html>
